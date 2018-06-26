@@ -1,0 +1,72 @@
+.container {
+    margin-top: 3rem;
+}
+
+.table-tasks {
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 0rem 1.5rem;
+}
+
+.checkbox-field input {
+    margin-right: 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+
+.remove-button {
+    background: transparent;
+    color: silver;
+    border: transparent;
+    font-size: 15px;
+    color: #2ba7ff;
+    cursor: pointer;
+}
+
+.is-checked {
+    text-decoration: line-through;
+}
+
+.description {
+    width: 100%;
+}
+
+.no-tasks {
+    padding: 1rem 0;
+}
+
+.add-task input {
+    padding: .25rem 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+
+.add-task {
+    position: relative;
+    display: flex;
+}
+
+.add-task button {
+    padding: .25rem 1rem;
+    background: #2ba7ff;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    float: right;
+    margin-left: .5rem;
+}
+
+.todo-title {
+    font-size: 20px;
+    margin-bottom: .75rem;
+    color: #2ba7ff;
+}
